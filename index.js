@@ -21,3 +21,11 @@ function inc(a) {
 function dec(a) {
   return a -= 1;
 }
+
+function makeInt(a) {
+  return parseInt(a, 10);
+}
+
+function makeFloat(a) {
+  return parseFloat(a);
+}
